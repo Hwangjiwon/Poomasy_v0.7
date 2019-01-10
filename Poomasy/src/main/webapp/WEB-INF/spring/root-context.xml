@@ -45,4 +45,7 @@
 		<constructor-arg name="sqlSessionFactory"
 			ref="sqlSessionFactory"></constructor-arg>
 	</bean>
+	
+	<!-- persistence 패키지 안의 클래스를 읽어오기 위함 -->
+	<context:component-scan base-package="com.bitproject.persistence"/>
 </beans>
