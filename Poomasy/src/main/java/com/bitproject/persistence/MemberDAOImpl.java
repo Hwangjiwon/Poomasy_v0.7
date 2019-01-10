@@ -19,8 +19,8 @@ public class MemberDAOImpl implements MemberDAO{
 		return sqlSession.selectOne(namespace+"getTime");
 	}
 	@Override
-	public void insertMember(MemberVO vo) {
-		sqlSession.insert(namespace+".insertMember",vo);
+	public void insertMember(MemberVO user) {
+		sqlSession.insert(namespace+".insertMember",user);
 	}
 	@Override
 	public MemberVO selectMember(String userid) throws Exception{

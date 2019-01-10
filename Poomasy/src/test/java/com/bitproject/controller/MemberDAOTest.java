@@ -4,7 +4,7 @@ import javax.inject.Inject;
 import org.junit.runner.RunWith;
 import org.junit.Test;
 import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner; //¼öµ¿À¸·Î Ãß°¡
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner; //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
 
 import com.bitproject.domain.MemberVO;
 import com.bitproject.persistence.MemberDAO;
@@ -18,10 +18,10 @@ public class MemberDAOTest {
 
 	@Test
 	public void testInsertMember()throws Exception{
-		MemberVO vo = new MemberVO();
-		vo.setUserid("user00");
-		vo.setUserpw("user00");
-		vo.setUsername("USER00");
-		dao.insertMember(vo);
+		MemberVO user = new MemberVO();
+		user.setUserid("user02");
+		user.setUserpw("user02");
+		user.setUsername("USER02");
+		dao.insertMember(user);
 	}
 }
