@@ -14,7 +14,7 @@ import com.bitproject.domain.MemberVO;
 public class MemberDAOImpl implements MemberDAO{
 	@Inject
 	private SqlSession sqlSession;
-	private static final String namespace="com.bitproject.mappers.memberMapper";
+	private static final String namespace="com.bitproject.mapper.MemberMapper";
 	public String getTime() {
 		return sqlSession.selectOne(namespace+"getTime");
 	}

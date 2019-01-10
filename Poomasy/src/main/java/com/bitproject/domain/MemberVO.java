@@ -5,6 +5,7 @@ public class MemberVO {
 	private String userid;
 	private String userpw;
 	private String username;
+	
 	public String getUserid() {
 		return userid;
 	}

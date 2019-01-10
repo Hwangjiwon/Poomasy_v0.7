@@ -150,6 +150,13 @@
 			<version>${org.springframework-version}</version>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- log4jdbc-log4j2 라이브러리 (MyBatis의 로그를 자세히 조사하게 해줌 -->
+		<dependency>
+			<groupId>org.bgee.log4jdbc-log4j2</groupId>
+			<artifactId>log4jdbc-log4j2-jdbc4</artifactId>
+			<version>1.16</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -172,7 +179,7 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.5.1</version>
 				<configuration>
-					<source>1.8</source> 
+					<source>1.8</source>
 					<target>1.8</target>
 					<compilerArgument>-Xlint:all</compilerArgument>
 					<showWarnings>true</showWarnings>
