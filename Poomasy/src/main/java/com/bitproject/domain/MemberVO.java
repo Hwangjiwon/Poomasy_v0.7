@@ -1,6 +1,6 @@
 package com.bitproject.domain;
 
-//MemberVO °´Ã¼ »ı¼º
+//MemberVO ê°ì²´ìƒì„±
 public class MemberVO {
 	private String userid;
 	private String userpw;

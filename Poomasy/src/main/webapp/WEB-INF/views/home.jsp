@@ -9,11 +9,9 @@
 
 	<P>The time on the server is ${serverTime}.</P>
 
-	<h1>Log in</h1>
-	<form action="/user/register" method="post">
-		email<input type="email" name="email"><br> 
-		password<input type="password" name="password"><br>
-		<input type="submit" value="Log in">
+	<form action="/member/siginUp">
+		 <input type="submit" value="Go to the Sign Up!!">
 	</form>
 </body>
 </html>
+
