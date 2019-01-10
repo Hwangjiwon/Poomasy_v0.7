@@ -7,7 +7,7 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner; //流立 import秦林绢具 窃
 
 
 @RunWith(SpringJUnit4ClassRunner.class)
