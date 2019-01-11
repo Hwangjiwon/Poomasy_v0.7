@@ -8,6 +8,7 @@
 	<h1>SignUp!</h1>
 
 	<P>userid is ${userid}.</P>
+	<P>userpw is ${userpw}.</P>
 	
 </body>
 </html>

@@ -14,8 +14,12 @@
 	<br>
 	password <input type="password" name="userpw">
 	<br>
-	<input value="Login" type="submit">
+	<input type="submit">
 	</form>
+	
+	<a href="login">Naver Login</a>
+	<a href="xxx">Kakao Login</a>
+	<a href="xxx">Google Login</a>
 </body>
 </html>
 

@@ -19,9 +19,9 @@ public class MemberDAOTest {
 	@Test
 	public void testInsertMember()throws Exception{
 		MemberVO user = new MemberVO();
-		user.setUserid("user02");
-		user.setUserpw("user02");
-		user.setUsername("USER02");
+		user.setUserid("user03");
+		user.setUserpw("user03");
+		user.setUsername("USER03");
 		dao.insertMember(user);
 	}
 }
