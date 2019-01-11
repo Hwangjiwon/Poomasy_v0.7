@@ -37,8 +37,6 @@
 		<!-- Mapper로 끝나는 파일 모두 인식 -->
 		<property name="mapperLocations"
 			value="classpath:mappers/**/*Mapper.xml"></property>
-
-
 	</bean>
 
 	<!-- DB연결,종료 -->

@@ -2,13 +2,13 @@
 <%@ page session="false"%>
 <html>
 <head>
-<title>Sign up</title>
+<title>SignUp</title>
 </head>
 <body>
+	<h1>SignUp!</h1>
 
-	<h1>Sign up</h1>
-	ID는 ?? ${id}
-	
+	<P>userid is ${userid}.</P>
 	
 </body>
 </html>
+

@@ -8,10 +8,15 @@
 	<h1>Hello world!</h1>
 
 	<P>The time on the server is ${serverTime}.</P>
+	<form action="signUp" method="get">
 
-	<form action="/member/siginUp">
-		 <input type="submit" value="Go to the Sign Up!!">
+	id <input type="email" name="userid">
+	<br>
+	password <input type="password" name="userpw">
+	<br>
+	<input value="Login" type="submit">
 	</form>
 </body>
 </html>
+
 
