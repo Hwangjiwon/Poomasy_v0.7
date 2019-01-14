@@ -4,11 +4,13 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <!doctype html>
 <html lang="ko">
+
+
 <head>
 <title>Naver Login Success</title>
 </head>
 <body>
-	<h2 style="text-align: center" id="name"></h2>
+	<h2 style="text-align: center" id="username"></h2>
 	<br>
 	<h4 style="text-align: center" id="email"></h4>
 

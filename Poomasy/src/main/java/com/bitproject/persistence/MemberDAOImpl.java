@@ -21,21 +21,21 @@ public class MemberDAOImpl implements MemberDAO {
 	}
 
 	@Override
-	public void insertMember(MemberVO user) {
+	public void insertMember(MemberVO user) { //회원가입
 		sqlSession.insert(namespace + ".insertMember", user);
 	}
 
 	@Override
-	public MemberVO selectMember(String userid) throws Exception {
-		return (MemberVO) sqlSession.selectOne(namespace + ".selectMember", userid);
+	public MemberVO selectMember(String email) throws Exception { //회원검색
+		return (MemberVO) sqlSession.selectOne(namespace + ".selectMember", email);
 	}
 
 	@Override
-	public MemberVO readWithPW(String userid, String userpw) throws Exception {
+	public MemberVO readWithPW(String email, String password) throws Exception { //회원email+pw 읽기
 
 		Map<String, Object> paramMap = new HashMap<String, Object>();
-		paramMap.put("userid", userid);
-		paramMap.put("userpw", userpw);
+		paramMap.put("email", email);
+		paramMap.put("password", password);
 
 		return sqlSession.selectOne(namespace + ".readWithPW", paramMap);
 	}

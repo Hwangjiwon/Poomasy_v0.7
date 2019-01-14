@@ -1,15 +1,19 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ page session="false"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <html>
 <head>
-<title>SignUp</title>
+<meta charset="UTF-8">
+<title>Join In</title>
 </head>
 <body>
-	<h1>SignUp!</h1>
-
-	<P>userid is ${userid}.</P>
-	<P>userpw is ${userpw}.</P>
-	
+<form action = "/signUp" method="post">
+	email<input type = "email" name = "email"><br>
+	password<input type = "password" name = "password"><br>
+	name<input type = "text" name = "username"><br>
+	nickname<input type = "text" name = "nickname"><br>
+	mobile<input type = "text" name = "mobile"><br>
+	<input type = "submit" value = "회원가입">
+</form>
 </body>
 </html>
-
